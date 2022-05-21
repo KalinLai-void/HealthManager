@@ -132,3 +132,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+if 'DATABASE_URL' in os.environ:
+    # Configure Django for DATABASE_URL environment variable.
+    DATABASES['default'] = dj_database_url.config()
