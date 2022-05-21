@@ -11,7 +11,7 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgresql-clear-66421', # The Server name from 1.5
+        'NAME': 'd1g9ql6pr9uf74', # The Server name from 1.5
         'USER': 'floxbkqnccbaxe', # The username from 1.6
         'PASSWORD': '6e3b58cbb2e191f12bfc2c1186f646c7194209b3b18ee3033c540e8a3608e28c', # The password from installation
         'HOST': 'ec2-34-231-177-125.compute-1.amazonaws.com', # Host name/address from 1.6
